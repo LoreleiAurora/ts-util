@@ -1,6 +1,6 @@
 {
   "name": "@l5i/ts-util",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A collection of general-purpose TypeScript utilities.",
   "license": "MIT",
   "author": "Lorelei Aurora <iam@l5i.me> (https://l5i.me)",
