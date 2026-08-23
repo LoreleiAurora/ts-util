@@ -1,0 +1,20 @@
+registries:
+  default: https://registry.npmjs.org/
+
+engineStrict: true
+
+strictDepBuilds: true
+dangerouslyAllowAllBuilds: false
+allowBuilds:
+  lefthook: true
+
+minimumReleaseAge: 10080
+minimumReleaseAgeStrict: true
+minimumReleaseAgeIgnoreMissingTime: false
+
+blockExoticSubdeps: true
+verifyDepsBeforeRun: error
+trustPolicy: no-downgrade
+trustLockfile: false
+saveExact: true
+strictSsl: true

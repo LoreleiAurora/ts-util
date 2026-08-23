@@ -1,0 +1,12 @@
+pre-commit:
+  parallel: true
+  jobs:
+    - name: biome-check
+      glob: "*.{js,ts,jsx,tsx,mjs,cjs,d.ts,d.mts,json,jsonc}"
+      run: pnpm exec biome check --write --staged --files-ignore-unknown=true --no-errors-on-unmatched {staged_files}
+      stage_fixed: true
+
+commit-msg:
+  jobs:
+    - name: commitlint
+      run: pnpm exec commitlint --edit {1}

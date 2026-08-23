@@ -1,0 +1,65 @@
+{
+  "name": "@l5i/ts-util",
+  "version": "0.1.0",
+  "description": "A collection of general-purpose TypeScript utilities.",
+  "license": "MIT",
+  "author": "Lorelei Aurora <iam@l5i.me> (https://l5i.me)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoreleiAurora/ts-util.git"
+  },
+  "homepage": "https://github.com/LoreleiAurora/ts-util",
+  "bugs": {
+    "url": "https://github.com/LoreleiAurora/ts-util/issues"
+  },
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "files": [
+    "**/*.js",
+    "**/*.d.ts",
+    "**/*.js.map",
+    "**/*.d.ts.map"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "scripts": {
+    "prepare": "lefthook install",
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "pnpm run typecheck:src && pnpm run typecheck:test",
+    "typecheck:src": "tsc --noEmit -p tsconfig.build.json",
+    "typecheck:test": "tsc --noEmit -p tsconfig.test.json",
+    "test": "vitest run",
+    "test:cov": "vitest run --coverage",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write ."
+  },
+  "packageManager": "pnpm@11.21.0",
+  "devDependencies": {
+    "@biomejs/biome": "2.5.6",
+    "@commitlint/cli": "21.2.2",
+    "@commitlint/config-conventional": "21.2.2",
+    "@semantic-release/changelog": "7.0.0",
+    "@semantic-release/commit-analyzer": "13.0.1",
+    "@semantic-release/exec": "7.1.0",
+    "@semantic-release/git": "11.0.1",
+    "@semantic-release/github": "12.0.9",
+    "@semantic-release/npm": "13.1.5",
+    "@semantic-release/release-notes-generator": "14.1.1",
+    "@types/node": "24.0.0",
+    "@vitest/coverage-v8": "4.1.10",
+    "conventional-changelog-conventionalcommits": "10.3.0",
+    "lefthook": "2.1.10",
+    "semantic-release": "25.0.9",
+    "typescript": "6.0.3",
+    "vitest": "4.1.10"
+  }
+}
