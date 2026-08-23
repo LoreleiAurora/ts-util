@@ -243,9 +243,6 @@ importers:
       '@vitest/coverage-v8':
         specifier: 4.1.10
         version: 4.1.10(vitest@4.1.10)
-      conventional-changelog-conventionalcommits:
-        specifier: 10.3.0
-        version: 10.3.0
       lefthook:
         specifier: 2.1.10
         version: 2.1.10

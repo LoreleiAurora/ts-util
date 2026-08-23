@@ -5,8 +5,7 @@ export default {
     [
       '@semantic-release/commit-analyzer',
       {
-        preset: 'conventionalcommits',
-        presetConfig: {},
+        preset: 'angular',
         releaseRules: [
           { breaking: true, release: 'minor' },
           { type: 'feat', release: 'minor' },
@@ -26,8 +25,7 @@ export default {
     [
       '@semantic-release/release-notes-generator',
       {
-        preset: 'conventionalcommits',
-        presetConfig: {},
+        preset: 'angular',
       },
     ],
     [
