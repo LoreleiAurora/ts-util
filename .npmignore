@@ -1,0 +1,19 @@
+# TypeScript source (declarations are re-included below)
+*.ts
+!*.d.ts
+
+# Tooling configs (package.json is always included by npm)
+*.json
+*.mjs
+*.yaml
+*.yml
+
+# Dotfiles
+.editorconfig
+.tool-versions
+
+# Non-publish directories
+coverage/
+.idea/
+.github/
+.run/
