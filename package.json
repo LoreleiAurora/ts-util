@@ -58,6 +58,22 @@
       "types": "./async/with-timeout.d.ts",
       "import": "./async/with-timeout.js"
     },
+    "./function": {
+      "types": "./function/index.d.ts",
+      "import": "./function/index.js"
+    },
+    "./function/debounce": {
+      "types": "./function/debounce.d.ts",
+      "import": "./function/debounce.js"
+    },
+    "./function/throttle": {
+      "types": "./function/throttle.d.ts",
+      "import": "./function/throttle.js"
+    },
+    "./function/types": {
+      "types": "./function/types.d.ts",
+      "import": "./function/types.js"
+    },
     "./constructor": {
       "types": "./constructor.d.ts",
       "import": "./constructor.js"
