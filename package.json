@@ -30,6 +30,34 @@
       "types": "./array/unique.d.ts",
       "import": "./array/unique.js"
     },
+    "./async": {
+      "types": "./async/index.d.ts",
+      "import": "./async/index.js"
+    },
+    "./async/abort": {
+      "types": "./async/abort.d.ts",
+      "import": "./async/abort.js"
+    },
+    "./async/linear-backoff": {
+      "types": "./async/linear-backoff.d.ts",
+      "import": "./async/linear-backoff.js"
+    },
+    "./async/retry": {
+      "types": "./async/retry.d.ts",
+      "import": "./async/retry.js"
+    },
+    "./async/sleep": {
+      "types": "./async/sleep.d.ts",
+      "import": "./async/sleep.js"
+    },
+    "./async/types": {
+      "types": "./async/types.d.ts",
+      "import": "./async/types.js"
+    },
+    "./async/with-timeout": {
+      "types": "./async/with-timeout.d.ts",
+      "import": "./async/with-timeout.js"
+    },
     "./constructor": {
       "types": "./constructor.d.ts",
       "import": "./constructor.js"
