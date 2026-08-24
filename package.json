@@ -14,13 +14,17 @@
   },
   "type": "module",
   "exports": {
-    "./invariant": {
-      "types": "./invariant.d.ts",
-      "import": "./invariant.js"
+    "./constructor": {
+      "types": "./constructor.d.ts",
+      "import": "./constructor.js"
     },
     "./envsubst": {
       "types": "./envsubst.d.ts",
       "import": "./envsubst.js"
+    },
+    "./invariant": {
+      "types": "./invariant.d.ts",
+      "import": "./invariant.js"
     },
     "./package.json": "./package.json"
   },
