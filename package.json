@@ -74,6 +74,22 @@
       "types": "./function/types.d.ts",
       "import": "./function/types.js"
     },
+    "./guards": {
+      "types": "./guards/index.d.ts",
+      "import": "./guards/index.js"
+    },
+    "./guards/is-defined": {
+      "types": "./guards/is-defined.d.ts",
+      "import": "./guards/is-defined.js"
+    },
+    "./guards/is-object": {
+      "types": "./guards/is-object.d.ts",
+      "import": "./guards/is-object.js"
+    },
+    "./guards/is-record": {
+      "types": "./guards/is-record.d.ts",
+      "import": "./guards/is-record.js"
+    },
     "./constructor": {
       "types": "./constructor.d.ts",
       "import": "./constructor.js"
