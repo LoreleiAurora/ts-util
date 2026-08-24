@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="Type Tests" pattern="file:*.spec-d.ts" />
+</component>
