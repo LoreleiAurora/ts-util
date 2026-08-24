@@ -14,6 +14,22 @@
   },
   "type": "module",
   "exports": {
+    "./array": {
+      "types": "./array/index.d.ts",
+      "import": "./array/index.js"
+    },
+    "./array/chunk": {
+      "types": "./array/chunk.d.ts",
+      "import": "./array/chunk.js"
+    },
+    "./array/types": {
+      "types": "./array/types.d.ts",
+      "import": "./array/types.js"
+    },
+    "./array/unique": {
+      "types": "./array/unique.d.ts",
+      "import": "./array/unique.js"
+    },
     "./constructor": {
       "types": "./constructor.d.ts",
       "import": "./constructor.js"
