@@ -13,20 +13,17 @@
     "url": "https://github.com/LoreleiAurora/ts-util/issues"
   },
   "type": "module",
-  "main": "index.js",
-  "types": "index.d.ts",
   "exports": {
-    ".": {
-      "types": "./index.d.ts",
-      "import": "./index.js"
-    }
+    "./invariant": {
+      "types": "./invariant.d.ts",
+      "import": "./invariant.js"
+    },
+    "./envsubst": {
+      "types": "./envsubst.d.ts",
+      "import": "./envsubst.js"
+    },
+    "./package.json": "./package.json"
   },
-  "files": [
-    "**/*.js",
-    "**/*.d.ts",
-    "**/*.js.map",
-    "**/*.d.ts.map"
-  ],
   "publishConfig": {
     "access": "public",
     "provenance": true

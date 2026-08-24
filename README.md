@@ -27,7 +27,7 @@ function invariant(
 ### Examples
 
 ```ts
-import { invariant, InvariantError } from '@l5i/ts-util';
+import { invariant, InvariantError } from '@l5i/ts-util/invariant';
 
 const value: string | null = getValue();
 
@@ -38,7 +38,7 @@ invariant(value, 'Expected value to be a string');
 value.toUpperCase();
 ```
 ```ts
-import { invariant, InvariantError } from '@l5i/ts-util';
+import { invariant, InvariantError } from '@l5i/ts-util/invariant';
 
 // String message - throws InvariantError
 invariant(value, 'Expected value to be a person');
@@ -94,7 +94,7 @@ function envsubstDeep<T>(node: T, options: EnvsubstOptions): T;
 ### Examples
 
 ```ts
-import { envsubst, envsubstDeep } from '@l5i/ts-util';
+import { envsubst, envsubstDeep } from '@l5i/ts-util/envsubst';
 
 // Basic substitution
 envsubst('${GREETING}, ${NAME}!', { env: { GREETING: 'Hello', NAME: 'Alice' } });
