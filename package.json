@@ -90,6 +90,34 @@
       "types": "./guards/is-record.d.ts",
       "import": "./guards/is-record.js"
     },
+    "./object": {
+      "types": "./object/index.d.ts",
+      "import": "./object/index.js"
+    },
+    "./object/deep-partial": {
+      "types": "./object/deep-partial.d.ts",
+      "import": "./object/deep-partial.js"
+    },
+    "./object/has-own": {
+      "types": "./object/has-own.d.ts",
+      "import": "./object/has-own.js"
+    },
+    "./object/json": {
+      "types": "./object/json.d.ts",
+      "import": "./object/json.js"
+    },
+    "./object/omit": {
+      "types": "./object/omit.d.ts",
+      "import": "./object/omit.js"
+    },
+    "./object/pick": {
+      "types": "./object/pick.d.ts",
+      "import": "./object/pick.js"
+    },
+    "./object/types": {
+      "types": "./object/types.d.ts",
+      "import": "./object/types.js"
+    },
     "./constructor": {
       "types": "./constructor.d.ts",
       "import": "./constructor.js"
