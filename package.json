@@ -26,7 +26,11 @@
       "types": "./invariant.d.ts",
       "import": "./invariant.js"
     },
-    "./package.json": "./package.json"
+    "./package.json": "./package.json",
+    "./primitive": {
+      "types": "./primitive.d.ts",
+      "import": "./primitive.js"
+    }
   },
   "publishConfig": {
     "access": "public",
